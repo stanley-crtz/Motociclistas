@@ -1,0 +1,19 @@
+1)- Construye una lista que contenga tramos horarios, en intervalos de 30 minutos, que empiece a las 8am y termine a las 8pm 
+	La empresa tiene una disponibilidad de 8 motociclistas cada 30 minutos, realizar un contador que baje desde 8 y que la marque en verde
+	si el mismo usuario da click a la misma caja, debera liberar el recurso osea tiene que quitar el color verde y sumar el contador
+	Si otros usuarios an tomado a los motociclistas la caja debera aparecer el rojo y no me debe dejar tomar ese horario
+	
+Classes a usar de Animate.css
+	animate__pulse (click)
+	animate__bounceIn (cargar)
+	animate__delay-{seconds}(el tiempo de carga de las animaciones de carga)
+	
+Rutas del Backend
+	GET ["/getSources"]: Obtener la lista de todos los recursos ejemplo:  {
+		"id": 0,
+		"Time": "",
+		contador: 0
+	}
+	PUT ["/updateAdd"]: Sumar el contador de acuerdo al indice que se envia
+	PUT ["/updateReset"]: Reiniciar todos los contadores a 0
+	PUT ["/updateSubtract"]: Restar el contador de a cuerdo al inidice que se envia
