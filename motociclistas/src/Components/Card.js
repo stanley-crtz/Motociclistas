@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
-import TimeImage from '../Assets/Images/SVG/Time.svg'
 import { updateData } from '../Helpers/updateData';
 
 export const Card = ({ id, time, contador: cont }) => {
@@ -41,7 +40,7 @@ export const Card = ({ id, time, contador: cont }) => {
 
     return (
         <div className={"card animate__animated " + contador.class + (contador.contador === 8 && contador.me == false ? " red" : "")} onClick={handleClick}>
-            <img alt="Icon" src={TimeImage} />
+            <img alt="Icon" src="https://res.cloudinary.com/dxmkfwigq/image/upload/v1611326508/Time_h0j5ab.svg" />
             <div className="context">
                 <h2>Time: {time}</h2>
                 <p>Ocupados: {contador.contador}</p>
