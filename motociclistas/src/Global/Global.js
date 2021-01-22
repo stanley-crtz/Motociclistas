@@ -1,3 +1,3 @@
 export const Global = {
-    backend: "http://localhost:1900/"
+    backend: "https://motociclistas.herokuapp.com/"
 } 
