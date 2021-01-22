@@ -1,19 +1,19 @@
 # Información Personal
 
-Nombre: Stanley Cortez
-Pais: El Salvador
+Nombre: Stanley Cortez.\
+Pais: El Salvador.
 
 # Como usar
 
 Se encuentran 3 carpetas:
- * Backend: Se encuentra toda la configuración del servidor
- * docs: Se encuentra el build de la aplicación.
- * motociclistas: Se encuentra la aplicación hecha en React JS
+ * **Backend:** Se encuentra toda la configuración del servidor.
+ * **docs:** Se encuentra el build de la aplicación.
+ * **motociclistas:** Se encuentra la aplicación hecha en React JS.
 
 # Tecnologias Usadas:
 
- * NodeJS
- * ReactJS
+ * **NodeJS.**
+ * **ReactJS.**
 
 # Probar la Aplicación
 

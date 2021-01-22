@@ -1,5 +1,7 @@
-## Scripts Disponibles
+## Como usar
+Para usar la aplicación en local debera ir al archivo **Global.js** que se encuentra en la ruta **src/Global/Global.js** y asegurarse que se encuentre la variable **backend** con el valor de la ruta del servidor corriendo en local, ejemplo: **backend: "http://localhost:1900/"** (siempre despues del puerto terminara con una **/**).
 
+## Scripts Disponibles
 En el directorio del proyecto, puede ejecutar:
 
 ### `npm start`
